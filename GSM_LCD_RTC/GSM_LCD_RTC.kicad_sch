@@ -1453,7 +1453,7 @@
     (property "Value" "Screw_Terminal_01x02" (id 1) (at 116.84 182.8799 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" (id 2) (at 114.3 181.61 0)
+    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" (id 2) (at 114.3 181.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 114.3 181.61 0)
@@ -1502,7 +1502,7 @@
 
   (symbol_instances
     (path "/e4aa07eb-0025-4c9a-b1bf-7c0fd782aa3e"
-      (reference "J1") (unit 1) (value "Screw_Terminal_01x02") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical")
+      (reference "J1") (unit 1) (value "Screw_Terminal_01x02") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical")
     )
     (path "/c463bf48-a5c3-44e4-a3a1-2dd23614d398"
       (reference "J2") (unit 1) (value "Conn_01x14_Female") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x14_P2.54mm_Vertical")
