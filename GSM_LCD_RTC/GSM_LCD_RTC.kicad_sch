@@ -1637,10 +1637,10 @@
     (property "Reference" "RV1" (id 0) (at 205.74 34.2899 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "R_Potentiometer" (id 1) (at 205.74 36.8299 0)
+    (property "Value" "10K Potentiometer" (id 1) (at 205.74 36.8299 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (id 2) (at 208.28 35.56 0)
+    (property "Footprint" "Potentiometer_THT:Potentiometer_ACP_CA6-H2,5_Horizontal" (id 2) (at 208.28 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 208.28 35.56 0)
@@ -1774,7 +1774,7 @@
       (reference "R4") (unit 1) (value "R") (footprint "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P20.32mm_Horizontal")
     )
     (path "/b482f951-6b79-4727-885d-127f4f445c7d"
-      (reference "RV1") (unit 1) (value "R_Potentiometer") (footprint "Potentiometer_THT:Potentiometer_ACP_CA6-H2,5_Horizontal")
+      (reference "RV1") (unit 1) (value "10K Potentiometer") (footprint "Potentiometer_THT:Potentiometer_ACP_CA6-H2,5_Horizontal")
     )
     (path "/7dac8009-a015-44c1-ab8b-d0d637a9bdd9"
       (reference "U1") (unit 1) (value "ATmega32A-P") (footprint "Package_DIP:DIP-40_W15.24mm")
