@@ -1074,7 +1074,7 @@
     (property "Sheetfile" "final_project.kicad_sch")
     (property "Sheetname" "")
     (path "/b8aa02a9-4198-48bd-81ab-07ad49830397")
-    (attr smd)
+    (attr through_hole)
     (fp_text reference "HX1" (at 0 -0.5 unlocked) (layer "B.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp cb93322a-2eae-4878-9b59-885f9647c1c7)
@@ -1125,10 +1125,15 @@
       (net 71 "Net-(HX1-Pad10)") (pinfunction "RATE") (pintype "input") (tstamp bcee9c16-4fd9-49f5-a743-f9a9aff96657))
     (pad "16" smd rect (at -1.18 5.08) (size 1.1 0.76) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 4 "Net-(C3-Pad1)") (pinfunction "DVDD") (pintype "power_in") (tstamp 0c1769a0-1cb4-493c-a6b0-6cc1d0d84c62))
-    (model "C:/Users/sanju/Documents/KiCad/6.0/footprints/CD4009 SOIC-16.STEP"
+    (model "D:/Projects/kicad/Libraries/footprints/CD4009 SOIC-16.STEP"
       (offset (xyz -3 -9 0))
       (scale (xyz 1 1.3 0.7))
       (rotate (xyz -90 0 90))
+    )
+    (model "D:/Projects/kicad/Libraries/footprints/CD4009 SOIC-16.STEP" hide
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1.1 1))
+      (rotate (xyz 90 -180 90))
     )
   )
 
